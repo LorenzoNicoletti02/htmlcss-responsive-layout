@@ -10,8 +10,13 @@ h2 {
     font-family: 'Nerko One', cursive;
 }
 
-h3 {
+.d-none {
+    display: none;
+}
+
+.secondary-title {
     color: #4E3969;
+    display: flex;
     font-size: 25px;
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
     padding-bottom: 15px;
@@ -28,7 +33,7 @@ main {
     background-color: #F6F5F3;
     width: 100%;
     padding: 20px 20px;
-    font-family: Montserrat, 'Helvetica Neue', sans-serif;;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
 .category {
@@ -41,14 +46,67 @@ main {
 .spec {
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
+    box-shadow:  3px 3px 3px #00000044;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.banner {
+    display: none;
 }
 
 ul {
     list-style: none;
     line-height: 30px;
+    width: 100%;
 }
 
 h4 {
     font-size: 20px;
     padding-bottom: 20px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px 5px #00000044;
+}
+
+.presentation-title {
+    font-size: 40px;
+    padding: 30px 0 10px 0;
+}
+
+.line {
+    width: 15%;
+    border-color: #ffa319;
+}
+
+.tiramisu {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tiramisu-img {
+    width: 65%;
+    padding: 20px 0 20px 0;
+}
+ 
+p {
+    line-height: 30px;
+    font-size: 15px;
 }
