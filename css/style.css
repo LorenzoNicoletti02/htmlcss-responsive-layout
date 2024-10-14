@@ -104,9 +104,33 @@ h4 {
 .tiramisu-img {
     width: 65%;
     padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
 }
  
 p {
     line-height: 30px;
     font-size: 15px;
+}
+
+footer p {
+    padding: 10px;
+}
+
+.footer-contact {
+    padding: 10px 0;
+}
+
+.footer-contact a {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #4E3969;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }

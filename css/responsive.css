@@ -42,4 +42,9 @@
         width: 120px;
         padding: 10px 50px 10px 50px;
     }
+
+    .tiramisu-img {
+        float: left;
+        width: 30%;
+    }
 }
